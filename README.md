@@ -1,0 +1,6 @@
+# App
+
+This app uses a monorepo aproach to serving the api and ui in development mode, and also for building each component.
+Rather than using a fullstack framework like Next.js, I am using Vite to server the frontend dev server and bun to serve the backend api server. This approach lets me develop in one terminal instance while also retaining hot reloading for the ui and api. In addition, Vite adds hot browser reloading and will automatically reload your frontend.
+
+This would never be the best approach in most cases, but when deveoping enterprise apps in JavaScript I want to maxmize my development momentum. This does exactly that. 
